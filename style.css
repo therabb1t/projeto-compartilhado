@@ -1,0 +1,46 @@
+/*CORES*/
+:root{
+    --lilás: #c9b8cc; 
+    --roxo: #905999; 
+    --branco: #fff; 
+    --amarelo: #ffec8f; 
+    --cinza: #d1cab7;
+}   
+/*CORES*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    display: block;
+    float: left;
+    background-color: var(--cinza);
+}
+
+article{
+    width: 70%;
+    height: 800px;
+    display: block;
+    float: left;
+    background-color: var(--lilás);
+}
+
+aside{
+    width: 30%;
+    height: 800px;
+    display:block;
+    float:left;
+    background-color: var(--roxo);
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    isplay: block;
+    float: left;
+    background-color: var(--amarelo);
+}
