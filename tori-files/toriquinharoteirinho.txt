@@ -1,0 +1,9 @@
+mini
+https://img.itch.zone/aW1hZ2UvMTg2MDkwNS8xMDkzMjU1Mi5naWY=/347x500m/i7TjcJ.gif
+cereja
+https://art.pixilart.com/9a6e080765f497e.png
+
+navbar
+	como fazer (base) -> https://www.w3schools.com/css/css_navbar.asp
+	
+	https://dribbble.com/shots/7093670-Navigation-Bar-Animation IDEIA (fazer simplificada inspirada nessa)
