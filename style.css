@@ -43,7 +43,9 @@ aside{
     display:block;
     float:left;
     background-color: var(--roxo);
+    background-image: url(porquinhos_bg.png) ;
 }
+   
 
 footer{
     width: 100%;
@@ -51,4 +53,11 @@ footer{
     display: block;
     float: left;
     background-color: var(--cinza);
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
 }
