@@ -52,3 +52,15 @@ footer{
     float: left;
     background-color: var(--cinza);
 }
+footer a{
+    background: var(--roxo);
+    border-radius: 12px; 
+    padding: 7px; 
+    cursor: pointer; 
+    color: #000000; 
+    border: none; 
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px;
+    right: 10px;
+}
