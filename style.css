@@ -52,3 +52,71 @@ footer{
     float: left;
     background-color: var(--cinza);
 }
+
+/*header*/
+#box a {
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+    display: block;
+    background-color: var(--cinza);
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px #b4ae9d;
+    border-radius: 15%;
+    
+    background-image:url(https://i.pinimg.com/originals/a6/f6/ef/a6f6efcca254afbe775fc19e0462c99c.png) ;
+}
+#box span {
+    display: none;
+}
+
+h1{
+    font-family:'richu mast';
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: var(--roxo);
+    display: block;
+    margin-left: 30px;
+    float: left;
+    -webkit-text-stroke: 1px #fff;
+    text-shadow: 2px 2px rgb(228, 175, 0);
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    display: block;
+    padding-top: 10%;
+    overflow: hidden;
+  }
+
+li {
+    display: inline;
+    float: left;
+  }
+.navigation a {
+    display: block;
+    padding: 8px;
+    background-color: var(--lilás);
+    
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: var(--roxo);
+  }
