@@ -28,7 +28,7 @@ header{
     float: left;
     background-color: var(--amarelo);
 }
-
+/*ANA*/
 article{
     width: 70%;
     height: 800px;
@@ -36,6 +36,27 @@ article{
     float: left;
     background-color: var(--lilás);
 }
+
+section{
+    margin: 10px 10px 10px 10px;
+}
+
+ul{
+    margin-left: 15px;
+}
+
+.titulos{
+    font-family:'richu mast';
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.info{
+    font-family: 'alte haas grotesk';
+    font-size: 17px
+}
+
 
 aside{
     width: 30%;
@@ -52,3 +73,4 @@ footer{
     float: left;
     background-color: var(--cinza);
 }
+
