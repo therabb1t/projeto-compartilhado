@@ -29,7 +29,6 @@ header{
     display: block;
     float: left;
     background-color: var(--amarelo);
-    background-image: url(https://thehappinesscoach.uk/videos/897e74f14370a0885497cf64a9b7252a.gif);
 }
 
 article{
@@ -57,7 +56,6 @@ footer{
 }
 
 /*header*/
-
 #box a {
     width: 250px;
     height: 250px;
