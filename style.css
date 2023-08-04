@@ -54,20 +54,24 @@ footer{
 }
 
 /*header*/
+header{
+    background-image: url(https://thehappinesscoach.uk/videos/897e74f14370a0885497cf64a9b7252a.gif);
+}
 #box a {
     width: 250px;
     height: 250px;
     margin-left: 5px;
-    margin-top: 5px;
+    margin-top: 20px;
     float: left;
     display: block;
     background-color: var(--cinza);
     background-size: 250px 250px;
     background-repeat: no-repeat;
-    box-shadow: 5px 5px #b4ae9d;
-    border-radius: 15%;
-    
-    background-image:url(https://i.pinimg.com/originals/a6/f6/ef/a6f6efcca254afbe775fc19e0462c99c.png) ;
+    box-shadow: 5px 5px #ffea00;
+    border: 4px var(--branco);
+    border-style: solid;
+    border-radius: 50%;
+    background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/f64fd795618507.5e9bad9d6aab1.png) ;
 }
 #box span {
     display: none;
@@ -79,20 +83,19 @@ h1{
     letter-spacing: 1px;
     color: var(--roxo);
     display: block;
-    margin-left: 30px;
+    margin-left: 22%;
     float: left;
     -webkit-text-stroke: 1px #fff;
     text-shadow: 2px 2px rgb(228, 175, 0);
-
 }
-
-
 
 ul {
     list-style-type: none;
     display: block;
-    padding-top: 10%;
+    margin-top: 12%;
     overflow: hidden;
+    margin-left: 42%;
+    
   }
 
 li {
