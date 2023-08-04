@@ -88,7 +88,7 @@ h1{
     text-shadow: 2px 2px rgb(228, 175, 0);
 }
 
-ul {
+header ul {
     list-style-type: none;
     display: block;
     margin-top: 12%;
