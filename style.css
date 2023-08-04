@@ -16,10 +16,12 @@
     font-family: 'richu mast';
     src: url('./font/richu_mast/Richu\ Mast\ Regular.ttf');
 }
+
 *{
     margin: 0;
     padding: 0;
 }
+
 /*CODE*/
 header{
     width: 100%;
@@ -28,7 +30,8 @@ header{
     float: left;
     background-color: var(--amarelo);
 }
-/*ANA*/
+
+
 article{
     width: 70%;
     height: 800px;
@@ -37,11 +40,11 @@ article{
     background-color: var(--lilás);
 }
 
-section{
+article section{
     margin: 10px 10px 10px 10px;
 }
 
-ul{
+article ul{
     margin-left: 15px;
 }
 
@@ -50,6 +53,7 @@ ul{
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 1px;
+    -webkit-text-stroke: 1px var(--branco);
 }
 
 .info{
