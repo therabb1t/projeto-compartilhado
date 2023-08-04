@@ -78,3 +78,70 @@ footer{
     background-color: var(--cinza);
 }
 
+/*header*/
+#box a {
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+    margin-top: 20px;
+    float: left;
+    display: block;
+    background-color: var(--cinza);
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px #ffea00;
+    border: 4px var(--branco);
+    border-style: solid;
+    border-radius: 50%;
+    background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/f64fd795618507.5e9bad9d6aab1.png) ;
+}
+#box span {
+    display: none;
+}
+
+h1{
+    font-family:'richu mast';
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: var(--roxo);
+    display: block;
+    margin-left: 22%;
+    float: left;
+    -webkit-text-stroke: 1px #fff;
+    text-shadow: 2px 2px rgb(228, 175, 0);
+}
+
+header ul {
+    list-style-type: none;
+    display: block;
+    margin-top: 12%;
+    overflow: hidden;
+    margin-left: 42%;
+    
+  }
+
+li {
+    display: inline;
+    float: left;
+  }
+.navigation a {
+    display: block;
+    padding: 8px;
+    background-color: var(--lilás);
+    
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: var(--roxo);
+  }
