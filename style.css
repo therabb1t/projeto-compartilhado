@@ -68,6 +68,20 @@ aside{
     display:block;
     float:left;
     background-color: var(--roxo);
+    background-image: url(porquinhos_bg.png) ;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2px;
+    margin: 10px;
+
+}
+.gallery__item {
+    width:10px;
+    height:10px;
+    object-fit: cover;
 }
 
 footer{
@@ -160,5 +174,39 @@ footer a{
 
 footer h1{
     font-family: 'alte haas grotesk' ;
+}
+
+.gallery img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10%;
+    border-style: solid;
+    border: 4px var(--branco);
+    box-shadow: 2px 2px var(--branco);
+}
+
+.Fodase{
+    margin-top: 50%;
+    margin-left: 20px;
+    background-color: #c9b8cc73;
+    border-radius: 10%;
+    box-shadow: 2px 2px var(--branco);
+    width: 90%;
+    height: 25%;
+}
+
+.Fodase h1{
+    font-family: 'richu mast';
+    font-style: var(--roxo);
+    -webkit-text-stroke: 1px var(--branco);
+    color: black;
+    margin-left: 10px;
+}
+
+.Fodase ul{
+    color: black;
+    margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
