@@ -52,6 +52,7 @@ footer{
     float: left;
     background-color: var(--cinza);
 }
+
 footer a{
     background: var(--roxo);
     border-radius: 12px; 
@@ -63,4 +64,9 @@ footer a{
     text-decoration: none;
     margin: 10px;
     right: 10px;
+    font-family: 'alte haas grotesk' ;
+}
+
+footer h1{
+    font-family: 'alte haas grotesk' ;
 }
