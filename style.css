@@ -99,7 +99,7 @@ footer{
     display: none;
 }
 
-h1{
+header h1{
     font-family:'richu mast';
     font-size: 60px;
     letter-spacing: 1px;
@@ -120,7 +120,7 @@ header ul {
     
   }
 
-li {
+header li {
     display: inline;
     float: left;
   }
@@ -130,11 +130,8 @@ li {
     background-color: var(--lilás);
     
   }
-  li {
-    float: left;
-  }
   
-  li a {
+header li a {
     display: block;
     color: white;
     text-align: center;
@@ -142,6 +139,26 @@ li {
     text-decoration: none;
   }
   
-  li a:hover {
+header li a:hover {
     background-color: var(--roxo);
   }
+
+
+footer a{
+    background: var(--roxo);
+    border-radius: 12px; 
+    padding: 7px; 
+    cursor: pointer; 
+    color: #000000; 
+    border: none; 
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px;
+    right: 10px;
+    font-family: 'alte haas grotesk' ;
+}
+
+footer h1{
+    font-family: 'alte haas grotesk' ;
+}
+
